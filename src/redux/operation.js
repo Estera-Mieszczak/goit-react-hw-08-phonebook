@@ -1,8 +1,8 @@
 import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-axios.defaults.baseURL = "https://connections-api.herokuapp.com/";
-axios.defaults.headers.common["Permissions-Policy"] = "interest-cohort=()";
+axios.defaults.baseURL = "https://connections-api.goit.global/";
+// axios.defaults.headers.common["Permissions-Policy"] = "interest-cohort=()";
 
 export const fetchContacts = createAsyncThunk(
     "contacts/fetchContacts",
