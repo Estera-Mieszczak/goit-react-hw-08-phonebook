@@ -15,7 +15,7 @@ export const Form = () => {
     const form = event.target;
     const name = form.elements.name.value;
     const phone = form.elements.phone.value;
-    dispatch(addContact({ name: name, phone: phone }));
+    dispatch(addContact({ name: name, number: phone }));
     form.reset();
   };
   

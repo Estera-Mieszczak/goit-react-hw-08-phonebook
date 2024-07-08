@@ -10,7 +10,7 @@ export const Contact = ({ contact }) => {
     
     return (
         <div>
-            <p>{contact.name} | {contact.phone}</p>
+            <p>{contact.name} | {contact.number}</p>
             <button onClick={handleDelete}>Delete</button>
         </div>
     )
